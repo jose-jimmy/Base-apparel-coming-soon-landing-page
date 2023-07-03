@@ -57,7 +57,7 @@ body{
 }
 
 .content h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 600;
     color: var(--clr-neutral-gray);
     letter-spacing: 1rem;
@@ -107,6 +107,11 @@ body{
     cursor: pointer;
 }
 
+.form-group button:hover{
+    background: linear-gradient(90deg, hsl(0, 76%, 81%), hsl(0, 88%, 90%));
+    box-shadow: 0 5px 20px 3px hsl(0, 80%, 76%);
+}
+
 input::placeholder {
     color: var(--red-light);
     font-weight: 400;
@@ -125,4 +130,77 @@ button:focus {
     margin-top: 0.5rem !important;
     margin-left: 1rem;
     text-align: left;
+}
+
+.text-success {
+    color: #44d838 !important;
+    margin: 0;
+    margin-top: 0.5rem !important;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.icon-error {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5.8rem;
+    display: none;
+}
+
+/*Mobile view*/
+
+@media screen and (max-width:1020px){
+    body{
+        background-color: var(--clr-neutral-gray);
+    }
+
+.clr-fix{
+        clear: both;
+    }
+
+.logo, .container{
+        margin:0;
+        height: auto;
+        min-width: 100%;
+        padding: 0 1rem;
+    }
+
+.logo img{
+    margin: 2rem;
+}
+
+.image-container{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-container img.hero-desktop{
+    display: none;
+}
+
+.image-container img.hero-mobile{
+    display: block;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    display: block;
+    margin:0;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.content p{
+    font-size: 0.87rem;
+    line-height: 1.5rem;
+}
 }
