@@ -28,13 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
+![](https://github.com/jose-jimmy/Images-in-readme/assets/88069006/fbd5c845-b7c7-49c1-ae6e-cc5ac84be9b9)
+
 ![](https://github.com/jose-jimmy/Images-in-readme/assets/88069006/55e0c3c2-a03e-4125-adc8-cabbfd914cb4)
 
-![](https://github.com/jose-jimmy/Images-in-readme/assets/88069006/fbd5c845-b7c7-49c1-ae6e-cc5ac84be9b9)
+
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/jose-jimmy/Base-apparel-coming-soon-landing-page)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://base-apparel-coming-soon-landing-page-jose-jimmy.vercel.app/)
 
 ## My process
 
