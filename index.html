@@ -13,14 +13,39 @@
 </head>
 
 <body>
+  <div>
 
-  We're coming soon
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Base Apparel logo">
+    </div>
+    <div class="image-container">
+      <img src="./images/hero-desktop.jpg" alt="hero-desktop" class="hero-desktop">
+      <img src="./images/hero-mobile.jpg" alt="hero-mobile" class="hero-mobile">
 
-  Hello fellow shoppers! We're currently building our new fashion store.
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    </div>
 
-  Email Address
-  <script src="script.js"></script>
+    <div class="container clr-fix">
+      <div class="content">
+        <h1><span>We're</span> coming soon</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
+          up-to-date
+          with announcements and our launch deals.</p>
+
+        <!--Email section-->
+        <form action="#" method="post">
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Email Address" />
+            <img src="./images/icon-error.svg" class="icon-error" alt="icon-error" srcset="" />
+            <button type="button" id="submit">
+              <img src="./images/icon-arrow.svg" alt="icon-arrow" srcset="" />
+            </button>
+          </div>
+          <p class="text-error"></p>
+        </form>
+      </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

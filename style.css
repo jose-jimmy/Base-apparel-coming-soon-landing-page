@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Open+Sans&display=swap');
+
+:root{
+    --clr-primary-red-400:hsl(0, 36%, 70%);
+    --clr-primary-red-800:hsl(0, 93%, 68%);
+    --clr-neutral-gray:hsl(0, 6%, 24%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('./images/bg-pattern-desktop.svg'),linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+    background-size: inherit;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+.logo{
+    display: inline-flex;
+    padding: 0 12rem;
+    max-width: 55%;
+    height:auto;
+}
+
+.logo img{
+    margin-top: 3rem;
+}
+
+.image-container{
+    height: 100vh;
+    float: right;
+}
+
+.image-container img.hero-desktop{
+    height:100%;
+}
+
+.image-container img.hero-mobile{
+    display: none;
+}
+
+.container{
+    padding: 0 12rem;
+    max-width: 55%;
+    height:auto;
+}
+
+.content{
+    margin-top: 5.5rem;
+}
+
+.content h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--clr-neutral-gray);
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    word-wrap: break-word;
+}
+
+.content h1 span{
+    color: var(--clr-primary-red-400);
+    font-weight: 300;
+}
+
+.content p{
+    margin-top: 1.2rem;
+    color: var(--clr-primary-red-400);
+    line-height: 1.8rem;
+    font-weight: 400;
+    font-size: 0.86rem;
+}
+
+.form-group{
+    margin-top: 2.5rem;
+    height: 3rem;
+    position: relative;
+}
+
+.form-group input {
+    border: 1px solid hsl(0, 8%, 88%);
+    border-radius: 2rem;
+    color: var(--clr-primary-red-400);
+    padding: 0.2rem 1.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.form-group button {
+    background: linear-gradient(90deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 0 5px 20px 3px hsl(0, 80%, 86%);
+    position: absolute;
+    height: 100%;
+    width: 5rem;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: var(--red-light);
+    font-weight: 400;
+    font-family:'Josefin Sans',
+        sans-serif;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.text-error {
+    color: var(--clr-primary-red-800) !important;
+    margin: 0;
+    margin-top: 0.5rem !important;
+    margin-left: 1rem;
+    text-align: left;
+}
